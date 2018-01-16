@@ -1,0 +1,114 @@
+// import bourbon
+@import "bourbon/bourbon"
+// initial reset
+*
+  margin: auto
+  padding: 0
+body
+  font-family: 'Montserrat', sans-serif
+  header
+    // background: linear-gradient(to left, #6aea6e,#48d5e4)
+    background: linear-gradient(to left, #FF4422, #CC0099)
+    margin: 0
+    padding: 20px
+    text-align: center
+    h1
+      color: ghostwhite
+  .hero-unit
+    position: relative
+    top: 0
+    left: 0
+    right: 0
+    /* width: 100% */
+    margin: 0 auto
+    /* border: 1px solid */
+    img
+      @include size(100% auto)
+    h2
+      text-align: center
+      margin: 40px 5px auto
+      color: #99A0A9
+    > p
+      text-align: center
+      margin: 5px auto
+      padding: 5px
+      color: #4D5055
+  #alert
+    background: red
+    border-radius: 5px
+    margin: 0 auto 20px
+    padding: 10px
+    width: 120px
+    text-align: center
+    color: ghostwhite
+    box-shadow: 0px 16px 15px -8px rgba(18, 26, 31, 0.76)
+    cursor: pointer
+  #hidden-msg
+    background: #eaeaea
+    text-align: center
+    margin: 5px
+    padding: 40px 20px
+    border-radius: 5px
+    display: none
+  .carousel
+    position: relative
+    background: #31e27c
+    margin: 10px
+    padding: 40px
+    border-radius: 5px
+  #intro
+    background: #f7f0f0
+    color: #4D5055
+    text-align: center
+    font-size: 28px
+    margin: 10px
+    padding: 20px
+    border-radius: 5px
+  article
+    background: #f3f3f3
+    @include size(auto)
+    margin: 10px
+    display: inline-block
+    /* border-radius: 5px; */
+    /* box-sizing: border-box; */
+    box-shadow: 5px 5px 20px 0px rgba(23,24,29,0.71)
+    h4
+      background: #2f6bbb
+      padding: 10px
+      text-align: center
+      color: ghostwhite
+    p
+      margin: 10px
+      padding: 10px
+      text-align: center
+  .article-1
+    background: #f3f3f3
+    @include size(220px auto)
+    margin: 10px
+
+  footer
+    position: relative
+    top: 50px
+    left: 0
+    right: 0
+    background: gainsboro
+    margin: 0
+    padding: 20px
+    text-align: center
+    font-weight: 300
+    font-size: 12px
+
+
+// .post-style
+//   -webkit-transition: all 0.5s ease-in
+//   transition: all 0.5s ease-in
+//   #hidden-msg
+//     display: block
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ media queries ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+@media only screen and (max-width: 540px)
+  header
+    @include size(auto)
+    article
+      @include size(auto)
+      display: block

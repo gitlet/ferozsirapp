@@ -1,0 +1,109 @@
+* {
+  margin: auto;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+  body header {
+    background: linear-gradient(to left, #FF4422, #CC0099);
+    margin: 0;
+    padding: 20px;
+    text-align: center; }
+    body header h1 {
+      color: ghostwhite; }
+  body .hero-unit {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* width: 100% */
+    margin: 0 auto;
+    /* border: 1px solid */ }
+    body .hero-unit img {
+      height: auto;
+      width: 100%; }
+    body .hero-unit h2 {
+      text-align: center;
+      margin: 40px 5px auto;
+      color: #99A0A9; }
+    body .hero-unit > p {
+      text-align: center;
+      margin: 5px auto;
+      padding: 5px;
+      color: #4D5055; }
+  body #alert {
+    background: red;
+    border-radius: 5px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    color: ghostwhite;
+    box-shadow: 0px 16px 15px -8px rgba(18, 26, 31, 0.76);
+    cursor: pointer; }
+  body #hidden-msg {
+    background: #eaeaea;
+    text-align: center;
+    margin: 5px;
+    padding: 40px 20px;
+    border-radius: 5px;
+    display: none; }
+  body .carousel {
+    position: relative;
+    background: #31e27c;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px; }
+  body #intro {
+    background: #f7f0f0;
+    color: #4D5055;
+    text-align: center;
+    font-size: 28px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px; }
+  body article {
+    background: #f3f3f3;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    display: inline-block;
+    /* border-radius: 5px; */
+    /* box-sizing: border-box; */
+    box-shadow: 5px 5px 20px 0px rgba(23, 24, 29, 0.71); }
+    body article h4 {
+      background: #2f6bbb;
+      padding: 10px;
+      text-align: center;
+      color: ghostwhite; }
+    body article p {
+      margin: 10px;
+      padding: 10px;
+      text-align: center; }
+  body .article-1 {
+    background: #f3f3f3;
+    height: auto;
+    width: 220px;
+    margin: 10px; }
+  body footer {
+    position: relative;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background: gainsboro;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px; }
+
+@media only screen and (max-width: 540px) {
+  header {
+    height: auto;
+    width: auto; }
+    header article {
+      height: auto;
+      width: auto;
+      display: block; } }
+
+/*# sourceMappingURL=master.css.map */
